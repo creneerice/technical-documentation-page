@@ -1,0 +1,54 @@
+body {
+    min-width: 290px;
+    color: #28292c;
+    background-color: #f3e1e1;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    display: flex;
+}
+
+.nav-link, #nav-header {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: rgb(246, 58, 6);
+}
+
+.navigation{
+  list-style-type: none;
+}
+
+#navbar {
+  display: block;
+  position: fixed;
+  left: 0; 
+  top: 0;
+  width: 200px;
+  height: 100vh;  
+  background: rgb(224, 221, 221);
+  padding-top: 20px;
+  line-height: 2;
+  font-size: 20px;
+}
+
+main {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.main-section header{
+  font-weight: bold;
+  color: green;
+text-decoration: underline;
+font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  #navbar {
+    font-size: 22px;
+  }
+}
