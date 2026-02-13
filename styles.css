@@ -47,8 +47,11 @@ text-decoration: underline;
 font-size: 20px;
 }
 
-@media screen and (min-width: 768px) {
-  #navbar {
-    font-size: 22px;
+@media (max-width: 768px) {
+  body {
+    font-size: 18px;
   }
 }
+
+}
+
